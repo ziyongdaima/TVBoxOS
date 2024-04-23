@@ -211,3 +211,7 @@
     public static **[] values();
     public static ** valueOf(java.lang.String);
 }
+-keep public class com.undcover.freedom.pyramid.** { *; }
+-dontwarn com.undcover.freedom.pyramid.**
+-keep public class com.chaquo.python.** { *; }
+-dontwarn com.chaquo.python.**
